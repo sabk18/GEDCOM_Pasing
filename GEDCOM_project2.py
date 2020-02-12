@@ -6,7 +6,6 @@
 
 File = open('Khalid_GEDCOM.txt')
 
-
 # In[2]:
 
 
