@@ -1,0 +1,429 @@
+0 NOTE CS_555_GEDCOM
+0 HEAD
+1 SOUR Geni.com
+2 VERS 1.0
+1 DATE 11 FEB 2020
+2 TIME 18:35:48
+1 SUBM @S6000000122549280026@
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+0 @I6000000122549280026@ INDI
+1 NAME Saba /Khalid/
+2 GIVN Saba
+2 SURN Gondal
+2 _MARNM Khalid
+1 SEX F
+1 BIRT
+2 DATE 9 FEB 1993
+2 ADDR Islamabad
+3 CONT Islamabad Capital Territory Pakistan
+3 CITY Islamabad
+3 STAE Islamabad Capital Territory
+3 CTRY Pakistan
+1 RESI
+2 ADDR New York
+3 CONT NY United States
+3 CITY New York
+3 STAE NY
+3 CTRY United States
+1 ADDR skhalid1@stevens.edu
+2 EMAIL skhalid1@stevens.edu
+1 FAMC @F6000000122550024922@
+1 RFN geni:6000000122549280026
+1 CHAN
+2 DATE 11 FEB 2020
+3 TIME 18:34:24
+0 @I6000000122547944601@ INDI
+1 NAME Naheed /Gondal/
+2 GIVN Naheed
+2 SURN Hayat
+2 _MARNM Gondal
+1 SEX F
+1 BIRT
+2 DATE 22 JUN 1970
+2 ADDR Islamabad
+3 CONT Islamabad Capital Territory Pakistan
+3 CITY Islamabad
+3 STAE Islamabad Capital Territory
+3 CTRY Pakistan
+1 RESI
+2 ADDR New York
+3 CONT NY United States
+3 CITY New York
+3 STAE NY
+3 CTRY United States
+1 FAMC @F6000000122550879882@
+1 FAMS @F6000000122550024922@
+1 RFN geni:6000000122547944601
+1 CHAN
+2 DATE 11 FEB 2020
+3 TIME 17:52:03
+0 @I6000000122550024916@ INDI
+1 NAME Khalid /Gondal/
+2 GIVN Khalid
+2 _MARNM Gondal
+1 SEX M
+1 BIRT
+2 DATE 13 SEP 1956
+2 ADDR Islamabad
+3 CONT Islamabad Capital Territory Pakistan
+3 CITY Islamabad
+3 STAE Islamabad Capital Territory
+3 CTRY Pakistan
+1 RESI
+2 ADDR New York
+3 CONT NY United States
+3 CITY New York
+3 STAE NY
+3 CTRY United States
+1 FAMC @F6000000122550214032@
+1 FAMS @F6000000122550024922@
+1 RFN geni:6000000122550024916
+1 CHAN
+2 DATE 11 FEB 2020
+3 TIME 17:50:15
+0 @I6000000122549932921@ INDI
+1 NAME Sumera /Khalid/
+2 GIVN Sumera
+2 SURN Gondal
+2 _MARNM Khalid
+1 SEX F
+1 BIRT
+2 DATE 28 FEB 1994
+2 ADDR Islamabad
+3 CONT Islamabad Capital Territory Pakistan
+3 CITY Islamabad
+3 STAE Islamabad Capital Territory
+3 CTRY Pakistan
+1 RESI
+2 ADDR Islamabad
+3 CONT Islamabad Capital Territory Pakistan
+3 CITY Islamabad
+3 STAE Islamabad Capital Territory
+3 CTRY Pakistan
+1 FAMC @F6000000122550024922@
+1 FAMS @F6000000122550124875@
+1 RFN geni:6000000122549932921
+1 CHAN
+2 DATE 11 FEB 2020
+3 TIME 17:54:38
+0 @I6000000122549418150@ INDI
+1 NAME Hamza /Khalid/
+2 GIVN Hamza
+2 SURN Gondal
+2 _MARNM Khalid
+1 SEX M
+1 BIRT
+2 DATE 19 DEC 1995
+2 ADDR Islamabad
+3 CONT Islamabad Capital Territory Pakistan
+3 CITY Islamabad
+3 STAE Islamabad Capital Territory
+3 CTRY Pakistan
+1 RESI
+2 ADDR Albany
+3 CONT NY United States
+3 CITY Albany
+3 STAE NY
+3 CTRY United States
+1 FAMC @F6000000122550024922@
+1 RFN geni:6000000122549418150
+1 CHAN
+2 DATE 11 FEB 2020
+3 TIME 17:58:33
+0 @I6000000122549837168@ INDI
+1 NAME Rasool /Bibi/
+2 GIVN Rasool
+2 _MARNM Bibi
+1 SEX F
+1 BIRT
+2 DATE 8 MAR 1950
+2 ADDR Islamabad
+3 CONT Islamabad Capital Territory Pakistan
+3 CITY Islamabad
+3 STAE Islamabad Capital Territory
+3 CTRY Pakistan
+1 RESI
+2 ADDR New York
+3 CONT NY United States
+3 CITY New York
+3 STAE NY
+3 CTRY United States
+1 FAMS @F6000000122550879882@
+1 RFN geni:6000000122549837168
+1 CHAN
+2 DATE 11 FEB 2020
+3 TIME 18:24:55
+0 @I6000000122550879876@ INDI
+1 NAME Hayat /Gondal/
+2 GIVN Hayat
+2 _MARNM Gondal
+1 SEX M
+1 BIRT
+2 DATE 18 FEB 1930
+2 ADDR Islamabad
+3 CONT Islamabad Capital Territory Pakistan
+3 CITY Islamabad
+3 STAE Islamabad Capital Territory
+3 CTRY Pakistan
+1 DEAT
+2 DATE 7 MAR 1979
+1 FAMS @F6000000122551160826@
+1 FAMS @F6000000122550879882@
+1 RFN geni:6000000122550879876
+1 CHAN
+2 DATE 11 FEB 2020
+3 TIME 18:20:53
+0 @I6000000122550030069@ INDI
+1 NAME Ahmed /Gondal/
+2 GIVN Ahmed
+2 _MARNM Gondal
+1 SEX M
+1 BIRT
+2 DATE 22 AUG 1932
+2 ADDR Islamabad
+3 CONT Islamabad Capital Territory Pakistan
+3 CITY Islamabad
+3 STAE Islamabad Capital Territory
+3 CTRY Pakistan
+1 DEAT
+2 DATE 23 JAN 2009
+2 ADDR Islamabad
+3 CONT Islamabad Capital Territory Pakistan
+3 CITY Islamabad
+3 STAE Islamabad Capital Territory
+3 CTRY Pakistan
+1 FAMS @F6000000122550214032@
+1 RFN geni:6000000122550030069
+1 CHAN
+2 DATE 11 FEB 2020
+3 TIME 18:19:29
+0 @I6000000122550214026@ INDI
+1 NAME Nazeer /Begum/
+2 GIVN Nazeer
+2 _MARNM Begum
+1 SEX F
+1 BIRT
+2 DATE 1 FEB 1937
+2 ADDR Islamabad
+3 CONT Islamabad Capital Territory Pakistan
+3 CITY Islamabad
+3 STAE Islamabad Capital Territory
+3 CTRY Pakistan
+1 DEAT
+2 DATE 12 SEP 1993
+2 ADDR Islamabad
+3 CONT Terytorium Stołeczne Islamabadu Pakistan
+3 CITY Islamabad
+3 STAE Terytorium Stołeczne Islamabadu
+3 CTRY Pakistan
+1 FAMS @F6000000122550214032@
+1 RFN geni:6000000122550214026
+1 CHAN
+2 DATE 11 FEB 2020
+3 TIME 18:17:47
+0 @I6000000122551233856@ INDI
+1 NAME Iftikhar /Ahmed/
+2 GIVN Iftikhar
+2 SURN Gondal
+2 _MARNM Ahmed
+1 SEX M
+1 BIRT
+2 DATE 16 OCT 1962
+2 ADDR Islamabad
+3 CONT Islamabad Capital Territory Pakistan
+3 CITY Islamabad
+3 STAE Islamabad Capital Territory
+3 CTRY Pakistan
+1 RESI
+2 ADDR Islamabad
+3 CONT Islamabad Capital Territory Pakistan
+3 CITY Islamabad
+3 STAE Islamabad Capital Territory
+3 CTRY Pakistan
+1 FAMC @F6000000122550214032@
+1 FAMS @F6000000122549837283@
+1 RFN geni:6000000122551233856
+1 CHAN
+2 DATE 11 FEB 2020
+3 TIME 18:28:34
+0 @I6000000122550124870@ INDI
+1 NAME Qasim /jee/
+2 GIVN Qasim
+2 SURN Choudary
+2 _MARNM jee
+1 SEX M
+1 BIRT
+2 DATE 19 APR 1992
+2 ADDR New York
+3 CONT NY United States
+3 CITY New York
+3 STAE NY
+3 CTRY United States
+1 RESI
+2 ADDR New York
+3 CONT NY United States
+3 CITY New York
+3 STAE NY
+3 CTRY United States
+1 FAMS @F6000000122550124875@
+1 RFN geni:6000000122550124870
+1 CHAN
+2 DATE 11 FEB 2020
+3 TIME 17:57:22
+0 @I6000000122549968947@ INDI
+1 NAME Dua /Qasim/
+2 GIVN Dua
+2 SURN Choudary
+2 _MARNM Qasim
+1 SEX F
+1 BIRT
+2 DATE 9 MAY 2019
+2 ADDR Islamabad
+3 CONT Islamabad Capital Territory Pakistan
+3 CITY Islamabad
+3 STAE Islamabad Capital Territory
+3 CTRY Pakistan
+1 RESI
+2 ADDR Islamabad
+3 CONT Islamabad Capital Territory Pakistan
+3 CITY Islamabad
+3 STAE Islamabad Capital Territory
+3 CTRY Pakistan
+1 FAMC @F6000000122550124875@
+1 RFN geni:6000000122549968947
+1 CHAN
+2 DATE 11 FEB 2020
+3 TIME 17:57:05
+0 @I6000000122551160821@ INDI
+1 NAME Rida /Jee/
+2 GIVN Rida
+2 SURN Choudary
+2 _MARNM Jee
+1 SEX F
+1 BIRT
+2 DATE 9 AUG 1950
+2 ADDR Islamabad
+3 CONT Islamabad Capital Territory Pakistan
+3 CITY Islamabad
+3 STAE Islamabad Capital Territory
+3 CTRY Pakistan
+1 RESI
+2 ADDR Islamabad
+3 CONT Islamabad Capital Territory Pakistan
+3 CITY Islamabad
+3 STAE Islamabad Capital Territory
+3 CTRY Pakistan
+1 FAMS @F6000000122551160826@
+1 RFN geni:6000000122551160821
+1 CHAN
+2 DATE 11 FEB 2020
+3 TIME 18:23:03
+0 @I6000000122549837278@ INDI
+1 NAME Rifat /Gondal/
+2 GIVN Rifat
+2 SURN Hayat
+2 _MARNM Gondal
+1 SEX F
+1 BIRT
+2 DATE 25 JUN 1975
+2 ADDR Islamabad
+3 CONT Islamabad Capital Territory Pakistan
+3 CITY Islamabad
+3 STAE Islamabad Capital Territory
+3 CTRY Pakistan
+1 RESI
+2 ADDR Islamabad
+3 CONT Islamabad Capital Territory Pakistan
+3 CITY Islamabad
+3 STAE Islamabad Capital Territory
+3 CTRY Pakistan
+1 FAMS @F6000000122549837283@
+1 RFN geni:6000000122549837278
+1 CHAN
+2 DATE 11 FEB 2020
+3 TIME 18:30:05
+0 @I6000000122551057022@ INDI
+1 NAME Zunera /Iftikhar/
+2 GIVN Zunera
+2 SURN Ahmed
+2 _MARNM Iftikhar
+1 SEX F
+1 BIRT
+2 DATE 27 APR 1996
+2 ADDR Islamabad
+3 CONT Islamabad Capital Territory Pakistan
+3 CITY Islamabad
+3 STAE Islamabad Capital Territory
+3 CTRY Pakistan
+1 FAMC @F6000000122549837283@
+1 RFN geni:6000000122551057022
+1 CHAN
+2 DATE 11 FEB 2020
+3 TIME 18:31:23
+0 @F6000000122550024922@ FAM
+1 MARR
+2 DATE 9 MAY 1990
+2 ADDR Islamabad
+3 CONT Islamabad Capital Territory Pakistan
+3 CITY Islamabad
+3 STAE Islamabad Capital Territory
+3 CTRY Pakistan
+1 WIFE @I6000000122547944601@
+1 HUSB @I6000000122550024916@
+1 CHIL @I6000000122549280026@
+1 CHIL @I6000000122549932921@
+1 CHIL @I6000000122549418150@
+0 @F6000000122550879882@ FAM
+1 WIFE @I6000000122549837168@
+1 HUSB @I6000000122550879876@
+1 CHIL @I6000000122547944601@
+0 @F6000000122550214032@ FAM
+1 MARR
+2 DATE 5 AUG 1954
+2 ADDR Islamabad
+3 CONT Islamabad Capital Territory Pakistan
+3 CITY Islamabad
+3 STAE Islamabad Capital Territory
+3 CTRY Pakistan
+1 HUSB @I6000000122550030069@
+1 WIFE @I6000000122550214026@
+1 CHIL @I6000000122551233856@
+1 CHIL @I6000000122550024916@
+0 @F6000000122550124875@ FAM
+1 MARR
+2 DATE 7 MAY 2018
+2 ADDR Islamabad
+3 CONT Islamabad Capital Territory Pakistan
+3 CITY Islamabad
+3 STAE Islamabad Capital Territory
+3 CTRY Pakistan
+1 WIFE @I6000000122549932921@
+1 HUSB @I6000000122550124870@
+1 CHIL @I6000000122549968947@
+0 @F6000000122551160826@ FAM
+1 MARR
+2 DATE 9 APR 1970
+1 HUSB @I6000000122550879876@
+1 WIFE @I6000000122551160821@
+0 @F6000000122549837283@ FAM
+1 MARR
+2 DATE 26 MAY 1993
+2 ADDR Islamabad
+3 CONT Islamabad Capital Territory Pakistan
+3 CITY Islamabad
+3 STAE Islamabad Capital Territory
+3 CTRY Pakistan
+1 WIFE @I6000000122549837278@
+1 HUSB @I6000000122551233856@
+1 CHIL @I6000000122551057022@
+0 @S6000000122549280026@ SUBM
+1 NAME Saba Khalid
+1 ADDR New York
+2 CONT NY United States
+2 CITY New York
+2 STAE NY
+2 CTRY United States
+0 TRLR
