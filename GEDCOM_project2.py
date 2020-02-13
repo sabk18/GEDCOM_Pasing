@@ -7,11 +7,14 @@
 File = open('Khalid_GEDCOM.txt')
 
 # In[ ]:
+# Create a dict to store data
 info={
     'FAM':{},
     'INDI':{}
 
  }
+
+ # These are the fields that we need to track as per the first part of the assigment. Had to drop date to make collection function work.
 typelist=[
     'INDI',
     'NAME',
@@ -29,7 +32,9 @@ typelist=[
     'HEAD',
     'TRLR',
     'NOTE']
+
 currenttracker='';
+
 def createCollection(line,currenttracker):
     ''' Updates the dict and adds the values in. Structure is as follows
     info = {
