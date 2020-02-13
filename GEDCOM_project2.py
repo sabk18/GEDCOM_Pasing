@@ -113,9 +113,9 @@ for line in Lines:
     if len(line)>2:
         currenttracker=createCollection(line,currenttracker)
     elif line[1] in date_type:
-        Nline = Lines[x+1].strip().split(' ')
-        Nline[1] = line[1]
-        currenttracker=createCollection(Nline,currenttracker)
+        NewLine = Lines[x+1].strip().split(' ')
+        NewLine[1] = line[1]
+        currenttracker=createCollection(Newline,currenttracker)
 
 
 
@@ -147,10 +147,11 @@ for line in Lines:
             new ='N'
             New_file.write("<--"+ "".join(level) + "|" + "".join(tags) + "|" +"".join(new)+ "|" + "".join(arguments)+'\n')
             New_file.write('\n')
-    if level == '3':
-        new = 'N'
-        New_file.write("<--"+ "".join(level) + "|" + "".join(tags) + "|" +"".join(new)+ "|" + "".join(arguments)+'\n')
-        New_file.write('\n')
+    #if level == '3':
+       # new = 'N'
+        #New_file.write("<--"+ "".join(level) + "|" + "".join(tags) + "|" +"".join(new)+ "|" + "".join(arguments)+'\n')
+       # New_file.write('\n)
+    #level 3 doesn't exist so it can just be treated as invalid input --> last part of the if statement
     if level =='0':
 
         if arg_ in L0_tags_1:
@@ -165,6 +166,10 @@ for line in Lines:
             else:
                 new = 'N'
                 New_file.write("<--"+ "".join(level) + "|" + "".join(tags) + "|" +"".join(new)+ "|" + "".join(arguments)+'\n')
+                New_file.write('\n')
+    else:
+        new = 'Invalid Input'
+        New_file.write("<--"+ "".join(level) + "|" + "".join(tags) + "|" +"".join(new)+ "|" + "".join(arguments)+'\n')
                 New_file.write('\n')
     x+=1
 New_file.close()
