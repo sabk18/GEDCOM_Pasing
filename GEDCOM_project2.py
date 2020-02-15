@@ -3,7 +3,9 @@
 
 # In[ ]:
 
-
+from tabulate import tabulate
+import datetime
+from datetime import date
 File = open('Khalid_GEDCOM.txt')
 
 # In[ ]:
@@ -64,14 +66,24 @@ def createCollection(line,currenttracker):
         return currenttracker
     elif line[1] == 'DIV' or line[1] == 'MARR':
         info['FAM'][currenttracker][line[1]] = " ".join(line[2:])
-    elif line[1] == 'WIFE' or line[1] == 'HUSB' or line[1] == 'CHIL':
+    elif line[1] == 'WIFE' or line[1] == 'HUSB':
         info['FAM'][currenttracker][line[1]] = line[2]
+    elif line[1] == 'CHIL':
+        if 'CHIL' not in info['FAM'][currenttracker]:
+            info['FAM'][currenttracker][line[1]]=[]
+        info['FAM'][currenttracker][line[1]].append(line[2])
+
     elif line[2] == 'INDI':
         info['INDI'][line[1]] = {}
         currenttracker=line[1]
         return currenttracker
     elif line[1] in typelist and currenttracker in info['INDI']:
-        info['INDI'][currenttracker][line[1]] = " ".join(line[2:])
+        if line[1] == 'FAMC':
+            if 'FAMC' not in  info['INDI'][currenttracker]:
+                 info['INDI'][currenttracker]['FAMC']=[]
+            info['INDI'][currenttracker]['FAMC'].append(" ".join(line[2:]))
+        else:
+            info['INDI'][currenttracker][line[1]] = " ".join(line[2:])
     return currenttracker
 
 
@@ -167,9 +179,62 @@ for line in Lines:
                 New_file.write("<--"+ "".join(level) + "|" + "".join(tags) + "|" +"".join(new)+ "|" + "".join(arguments)+'\n')
                 New_file.write('\n')
     x+=1
+
+table=[]
+for person in info['INDI']:
+    row =[person,
+   info['INDI'][person]['NAME'],
+   info['INDI'][person]['SEX'],
+   info['INDI'][person]['BIRT'],]
+    date_time_str = info['INDI'][person]['BIRT']
+    date_time_obj = datetime.datetime.strptime(date_time_str, '%d %b %Y')
+    row.append((date.today().year - date_time_obj.year - ((date.today().month, date.today().day) < (date_time_obj.month, date_time_obj.day)))+1)
+    if 'DEAT' in info['INDI'][person]:
+        row.extend(['True',info['INDI'][person]['DEAT']])
+    else:
+        row.extend(['False','N/A'])
+    if 'FAMC' in info['INDI'][person]:
+        row.append(info['INDI'][person]['FAMC'])
+    else:
+        row.append('N/A')
+    if 'FAMS' in info['INDI'][person]:
+        row.append(info['INDI'][person]['FAMS'])
+    else:
+        row.append('N/A')
+    table.append(row)
+print('Individaul')
+New_file.write('\nIndividaul\n')
+print(tabulate(table, headers=['ID', 'NAME','Gender', 'Birthday', 'Age', 'Alive', 'Death', 'Child', 'Spouse',], tablefmt="grid"))
+New_file.write(tabulate(table, headers=['ID', 'NAME','Gender', 'Birthday', 'Age', 'Alive', 'Death', 'Child', 'Spouse',], tablefmt="grid"))
+New_file.write('\nFamilies\n')
+print('Families')
+table=[]
+for famId in info['FAM']:
+    row=[famId]
+    if 'MARR' in info['FAM'][famId]:
+        row.append(info['FAM'][famId]['MARR'])
+    else:
+        row.append('N/A')
+    if 'DIV' in info['FAM'][famId]:
+        row.append(info['FAM'][famId]['DIV'])
+    else:
+        row.append('N/A')
+    row.extend(
+        [   info['FAM'][famId]['HUSB'],
+            info['INDI'][info['FAM'][famId]['HUSB']]['NAME'],
+            info['FAM'][famId]['WIFE'],
+            info['INDI'][info['FAM'][famId]['WIFE']]['NAME']
+        ])
+    if 'CHIL' in info['FAM'][famId]:
+        row.extend(info['FAM'][famId]['CHIL'])
+    else:
+        row.append('N/A')
+    table.append(row)
+print(tabulate(table, headers=['ID', 'Married', 'Divorced', 'Husband ID', 'Husband Name', 'Wife ID', 'Wife Name', 'Children'], tablefmt="grid"))
+
+New_file.write(tabulate(table, headers=['ID', 'Married', 'Divorced', 'Husband ID', 'Husband Name', 'Wife ID', 'Wife Name', 'Children'], tablefmt="grid"))
+
 New_file.close()
-
-
 # In[ ]:
 
 

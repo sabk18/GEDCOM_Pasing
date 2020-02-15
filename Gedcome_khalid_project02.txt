@@ -1,0 +1,1338 @@
+-->0 NOTE CS_555_GEDCOM
+<--0|NOTE|Y|CS_555_GEDCOM
+
+-->0 HEAD
+<--0|HEAD|Y|
+
+-->1 SOUR Geni.com
+<--1|SOUR|N|Geni.com
+
+-->2 VERS 1.0
+<--2|VERS|N|1.0
+
+-->1 DATE 11 FEB 2020
+<--1|DATE|N|11FEB2020
+
+-->2 TIME 18:35:48
+<--2|TIME|N|18:35:48
+
+-->1 SUBM @S6000000122549280026@
+<--1|SUBM|N|@S6000000122549280026@
+
+-->1 GEDC
+<--1|GEDC|N|
+
+-->2 VERS 5.5.1
+<--2|VERS|N|5.5.1
+
+-->2 FORM LINEAGE-LINKED
+<--2|FORM|N|LINEAGE-LINKED
+
+-->1 CHAR UTF-8
+<--1|CHAR|N|UTF-8
+
+-->0 @I6000000122549280026@ INDI
+<--0|INDI|Y|@I6000000122549280026@
+
+-->1 NAME Saba /Khalid/
+<--1|NAME|Y|Saba/Khalid/
+
+-->2 GIVN Saba
+<--2|GIVN|N|Saba
+
+-->2 SURN Gondal
+<--2|SURN|N|Gondal
+
+-->2 _MARNM Khalid
+<--2|_MARNM|N|Khalid
+
+-->1 SEX F
+<--1|SEX|Y|F
+
+-->1 BIRT
+<--1|BIRT|Y|
+
+-->2 DATE 9 FEB 1993
+<--2|DATE|Y|9FEB1993
+
+-->2 ADDR Islamabad
+<--2|ADDR|N|Islamabad
+
+-->3 CONT Islamabad Capital Territory Pakistan
+<--3|CONT|N|IslamabadCapitalTerritoryPakistan
+
+-->3 CITY Islamabad
+<--3|CITY|N|Islamabad
+
+-->3 STAE Islamabad Capital Territory
+<--3|STAE|N|IslamabadCapitalTerritory
+
+-->3 CTRY Pakistan
+<--3|CTRY|N|Pakistan
+
+-->1 RESI
+<--1|RESI|N|
+
+-->2 ADDR New York
+<--2|ADDR|N|NewYork
+
+-->3 CONT NY United States
+<--3|CONT|N|NYUnitedStates
+
+-->3 CITY New York
+<--3|CITY|N|NewYork
+
+-->3 STAE NY
+<--3|STAE|N|NY
+
+-->3 CTRY United States
+<--3|CTRY|N|UnitedStates
+
+-->1 ADDR skhalid1@stevens.edu
+<--1|ADDR|N|skhalid1@stevens.edu
+
+-->2 EMAIL skhalid1@stevens.edu
+<--2|EMAIL|N|skhalid1@stevens.edu
+
+-->1 FAMC @F6000000122550024922@
+<--1|FAMC|Y|@F6000000122550024922@
+
+-->1 RFN geni:6000000122549280026
+<--1|RFN|N|geni:6000000122549280026
+
+-->1 CHAN
+<--1|CHAN|N|
+
+-->2 DATE 11 FEB 2020
+<--2|DATE|Y|11FEB2020
+
+-->3 TIME 18:34:24
+<--3|TIME|N|18:34:24
+
+-->0 @I6000000122547944601@ INDI
+<--0|INDI|Y|@I6000000122547944601@
+
+-->1 NAME Naheed /Gondal/
+<--1|NAME|Y|Naheed/Gondal/
+
+-->2 GIVN Naheed
+<--2|GIVN|N|Naheed
+
+-->2 SURN Hayat
+<--2|SURN|N|Hayat
+
+-->2 _MARNM Gondal
+<--2|_MARNM|N|Gondal
+
+-->1 SEX F
+<--1|SEX|Y|F
+
+-->1 BIRT
+<--1|BIRT|Y|
+
+-->2 DATE 22 JUN 1970
+<--2|DATE|Y|22JUN1970
+
+-->2 ADDR Islamabad
+<--2|ADDR|N|Islamabad
+
+-->3 CONT Islamabad Capital Territory Pakistan
+<--3|CONT|N|IslamabadCapitalTerritoryPakistan
+
+-->3 CITY Islamabad
+<--3|CITY|N|Islamabad
+
+-->3 STAE Islamabad Capital Territory
+<--3|STAE|N|IslamabadCapitalTerritory
+
+-->3 CTRY Pakistan
+<--3|CTRY|N|Pakistan
+
+-->1 RESI
+<--1|RESI|N|
+
+-->2 ADDR New York
+<--2|ADDR|N|NewYork
+
+-->3 CONT NY United States
+<--3|CONT|N|NYUnitedStates
+
+-->3 CITY New York
+<--3|CITY|N|NewYork
+
+-->3 STAE NY
+<--3|STAE|N|NY
+
+-->3 CTRY United States
+<--3|CTRY|N|UnitedStates
+
+-->1 FAMC @F6000000122550879882@
+<--1|FAMC|Y|@F6000000122550879882@
+
+-->1 FAMS @F6000000122550024922@
+<--1|FAMS|Y|@F6000000122550024922@
+
+-->1 RFN geni:6000000122547944601
+<--1|RFN|N|geni:6000000122547944601
+
+-->1 CHAN
+<--1|CHAN|N|
+
+-->2 DATE 11 FEB 2020
+<--2|DATE|Y|11FEB2020
+
+-->3 TIME 17:52:03
+<--3|TIME|N|17:52:03
+
+-->0 @I6000000122550024916@ INDI
+<--0|INDI|Y|@I6000000122550024916@
+
+-->1 NAME Khalid /Gondal/
+<--1|NAME|Y|Khalid/Gondal/
+
+-->2 GIVN Khalid
+<--2|GIVN|N|Khalid
+
+-->2 _MARNM Gondal
+<--2|_MARNM|N|Gondal
+
+-->1 SEX M
+<--1|SEX|Y|M
+
+-->1 BIRT
+<--1|BIRT|Y|
+
+-->2 DATE 13 SEP 1956
+<--2|DATE|Y|13SEP1956
+
+-->2 ADDR Islamabad
+<--2|ADDR|N|Islamabad
+
+-->3 CONT Islamabad Capital Territory Pakistan
+<--3|CONT|N|IslamabadCapitalTerritoryPakistan
+
+-->3 CITY Islamabad
+<--3|CITY|N|Islamabad
+
+-->3 STAE Islamabad Capital Territory
+<--3|STAE|N|IslamabadCapitalTerritory
+
+-->3 CTRY Pakistan
+<--3|CTRY|N|Pakistan
+
+-->1 RESI
+<--1|RESI|N|
+
+-->2 ADDR New York
+<--2|ADDR|N|NewYork
+
+-->3 CONT NY United States
+<--3|CONT|N|NYUnitedStates
+
+-->3 CITY New York
+<--3|CITY|N|NewYork
+
+-->3 STAE NY
+<--3|STAE|N|NY
+
+-->3 CTRY United States
+<--3|CTRY|N|UnitedStates
+
+-->1 FAMC @F6000000122550214032@
+<--1|FAMC|Y|@F6000000122550214032@
+
+-->1 FAMS @F6000000122550024922@
+<--1|FAMS|Y|@F6000000122550024922@
+
+-->1 RFN geni:6000000122550024916
+<--1|RFN|N|geni:6000000122550024916
+
+-->1 CHAN
+<--1|CHAN|N|
+
+-->2 DATE 11 FEB 2020
+<--2|DATE|Y|11FEB2020
+
+-->3 TIME 17:50:15
+<--3|TIME|N|17:50:15
+
+-->0 @I6000000122549932921@ INDI
+<--0|INDI|Y|@I6000000122549932921@
+
+-->1 NAME Sumera /Khalid/
+<--1|NAME|Y|Sumera/Khalid/
+
+-->2 GIVN Sumera
+<--2|GIVN|N|Sumera
+
+-->2 SURN Gondal
+<--2|SURN|N|Gondal
+
+-->2 _MARNM Khalid
+<--2|_MARNM|N|Khalid
+
+-->1 SEX F
+<--1|SEX|Y|F
+
+-->1 BIRT
+<--1|BIRT|Y|
+
+-->2 DATE 28 FEB 1994
+<--2|DATE|Y|28FEB1994
+
+-->2 ADDR Islamabad
+<--2|ADDR|N|Islamabad
+
+-->3 CONT Islamabad Capital Territory Pakistan
+<--3|CONT|N|IslamabadCapitalTerritoryPakistan
+
+-->3 CITY Islamabad
+<--3|CITY|N|Islamabad
+
+-->3 STAE Islamabad Capital Territory
+<--3|STAE|N|IslamabadCapitalTerritory
+
+-->3 CTRY Pakistan
+<--3|CTRY|N|Pakistan
+
+-->1 RESI
+<--1|RESI|N|
+
+-->2 ADDR Islamabad
+<--2|ADDR|N|Islamabad
+
+-->3 CONT Islamabad Capital Territory Pakistan
+<--3|CONT|N|IslamabadCapitalTerritoryPakistan
+
+-->3 CITY Islamabad
+<--3|CITY|N|Islamabad
+
+-->3 STAE Islamabad Capital Territory
+<--3|STAE|N|IslamabadCapitalTerritory
+
+-->3 CTRY Pakistan
+<--3|CTRY|N|Pakistan
+
+-->1 FAMC @F6000000122550024922@
+<--1|FAMC|Y|@F6000000122550024922@
+
+-->1 FAMS @F6000000122550124875@
+<--1|FAMS|Y|@F6000000122550124875@
+
+-->1 RFN geni:6000000122549932921
+<--1|RFN|N|geni:6000000122549932921
+
+-->1 CHAN
+<--1|CHAN|N|
+
+-->2 DATE 11 FEB 2020
+<--2|DATE|Y|11FEB2020
+
+-->3 TIME 17:54:38
+<--3|TIME|N|17:54:38
+
+-->0 @I6000000122549418150@ INDI
+<--0|INDI|Y|@I6000000122549418150@
+
+-->1 NAME Hamza /Khalid/
+<--1|NAME|Y|Hamza/Khalid/
+
+-->2 GIVN Hamza
+<--2|GIVN|N|Hamza
+
+-->2 SURN Gondal
+<--2|SURN|N|Gondal
+
+-->2 _MARNM Khalid
+<--2|_MARNM|N|Khalid
+
+-->1 SEX M
+<--1|SEX|Y|M
+
+-->1 BIRT
+<--1|BIRT|Y|
+
+-->2 DATE 19 DEC 1995
+<--2|DATE|Y|19DEC1995
+
+-->2 ADDR Islamabad
+<--2|ADDR|N|Islamabad
+
+-->3 CONT Islamabad Capital Territory Pakistan
+<--3|CONT|N|IslamabadCapitalTerritoryPakistan
+
+-->3 CITY Islamabad
+<--3|CITY|N|Islamabad
+
+-->3 STAE Islamabad Capital Territory
+<--3|STAE|N|IslamabadCapitalTerritory
+
+-->3 CTRY Pakistan
+<--3|CTRY|N|Pakistan
+
+-->1 RESI
+<--1|RESI|N|
+
+-->2 ADDR Albany
+<--2|ADDR|N|Albany
+
+-->3 CONT NY United States
+<--3|CONT|N|NYUnitedStates
+
+-->3 CITY Albany
+<--3|CITY|N|Albany
+
+-->3 STAE NY
+<--3|STAE|N|NY
+
+-->3 CTRY United States
+<--3|CTRY|N|UnitedStates
+
+-->1 FAMC @F6000000122550024922@
+<--1|FAMC|Y|@F6000000122550024922@
+
+-->1 RFN geni:6000000122549418150
+<--1|RFN|N|geni:6000000122549418150
+
+-->1 CHAN
+<--1|CHAN|N|
+
+-->2 DATE 11 FEB 2020
+<--2|DATE|Y|11FEB2020
+
+-->3 TIME 17:58:33
+<--3|TIME|N|17:58:33
+
+-->0 @I6000000122549837168@ INDI
+<--0|INDI|Y|@I6000000122549837168@
+
+-->1 NAME Rasool /Bibi/
+<--1|NAME|Y|Rasool/Bibi/
+
+-->2 GIVN Rasool
+<--2|GIVN|N|Rasool
+
+-->2 _MARNM Bibi
+<--2|_MARNM|N|Bibi
+
+-->1 SEX F
+<--1|SEX|Y|F
+
+-->1 BIRT
+<--1|BIRT|Y|
+
+-->2 DATE 8 MAR 1950
+<--2|DATE|Y|8MAR1950
+
+-->2 ADDR Islamabad
+<--2|ADDR|N|Islamabad
+
+-->3 CONT Islamabad Capital Territory Pakistan
+<--3|CONT|N|IslamabadCapitalTerritoryPakistan
+
+-->3 CITY Islamabad
+<--3|CITY|N|Islamabad
+
+-->3 STAE Islamabad Capital Territory
+<--3|STAE|N|IslamabadCapitalTerritory
+
+-->3 CTRY Pakistan
+<--3|CTRY|N|Pakistan
+
+-->1 RESI
+<--1|RESI|N|
+
+-->2 ADDR New York
+<--2|ADDR|N|NewYork
+
+-->3 CONT NY United States
+<--3|CONT|N|NYUnitedStates
+
+-->3 CITY New York
+<--3|CITY|N|NewYork
+
+-->3 STAE NY
+<--3|STAE|N|NY
+
+-->3 CTRY United States
+<--3|CTRY|N|UnitedStates
+
+-->1 FAMS @F6000000122550879882@
+<--1|FAMS|Y|@F6000000122550879882@
+
+-->1 RFN geni:6000000122549837168
+<--1|RFN|N|geni:6000000122549837168
+
+-->1 CHAN
+<--1|CHAN|N|
+
+-->2 DATE 11 FEB 2020
+<--2|DATE|Y|11FEB2020
+
+-->3 TIME 18:24:55
+<--3|TIME|N|18:24:55
+
+-->0 @I6000000122550879876@ INDI
+<--0|INDI|Y|@I6000000122550879876@
+
+-->1 NAME Hayat /Gondal/
+<--1|NAME|Y|Hayat/Gondal/
+
+-->2 GIVN Hayat
+<--2|GIVN|N|Hayat
+
+-->2 _MARNM Gondal
+<--2|_MARNM|N|Gondal
+
+-->1 SEX M
+<--1|SEX|Y|M
+
+-->1 BIRT
+<--1|BIRT|Y|
+
+-->2 DATE 18 FEB 1930
+<--2|DATE|Y|18FEB1930
+
+-->2 ADDR Islamabad
+<--2|ADDR|N|Islamabad
+
+-->3 CONT Islamabad Capital Territory Pakistan
+<--3|CONT|N|IslamabadCapitalTerritoryPakistan
+
+-->3 CITY Islamabad
+<--3|CITY|N|Islamabad
+
+-->3 STAE Islamabad Capital Territory
+<--3|STAE|N|IslamabadCapitalTerritory
+
+-->3 CTRY Pakistan
+<--3|CTRY|N|Pakistan
+
+-->1 DEAT
+<--1|DEAT|Y|
+
+-->2 DATE 7 MAR 1979
+<--2|DATE|Y|7MAR1979
+
+-->1 FAMS @F6000000122551160826@
+<--1|FAMS|Y|@F6000000122551160826@
+
+-->1 FAMS @F6000000122550879882@
+<--1|FAMS|Y|@F6000000122550879882@
+
+-->1 RFN geni:6000000122550879876
+<--1|RFN|N|geni:6000000122550879876
+
+-->1 CHAN
+<--1|CHAN|N|
+
+-->2 DATE 11 FEB 2020
+<--2|DATE|Y|11FEB2020
+
+-->3 TIME 18:20:53
+<--3|TIME|N|18:20:53
+
+-->0 @I6000000122550030069@ INDI
+<--0|INDI|Y|@I6000000122550030069@
+
+-->1 NAME Ahmed /Gondal/
+<--1|NAME|Y|Ahmed/Gondal/
+
+-->2 GIVN Ahmed
+<--2|GIVN|N|Ahmed
+
+-->2 _MARNM Gondal
+<--2|_MARNM|N|Gondal
+
+-->1 SEX M
+<--1|SEX|Y|M
+
+-->1 BIRT
+<--1|BIRT|Y|
+
+-->2 DATE 22 AUG 1932
+<--2|DATE|Y|22AUG1932
+
+-->2 ADDR Islamabad
+<--2|ADDR|N|Islamabad
+
+-->3 CONT Islamabad Capital Territory Pakistan
+<--3|CONT|N|IslamabadCapitalTerritoryPakistan
+
+-->3 CITY Islamabad
+<--3|CITY|N|Islamabad
+
+-->3 STAE Islamabad Capital Territory
+<--3|STAE|N|IslamabadCapitalTerritory
+
+-->3 CTRY Pakistan
+<--3|CTRY|N|Pakistan
+
+-->1 DEAT
+<--1|DEAT|Y|
+
+-->2 DATE 23 JAN 2009
+<--2|DATE|Y|23JAN2009
+
+-->2 ADDR Islamabad
+<--2|ADDR|N|Islamabad
+
+-->3 CONT Islamabad Capital Territory Pakistan
+<--3|CONT|N|IslamabadCapitalTerritoryPakistan
+
+-->3 CITY Islamabad
+<--3|CITY|N|Islamabad
+
+-->3 STAE Islamabad Capital Territory
+<--3|STAE|N|IslamabadCapitalTerritory
+
+-->3 CTRY Pakistan
+<--3|CTRY|N|Pakistan
+
+-->1 FAMS @F6000000122550214032@
+<--1|FAMS|Y|@F6000000122550214032@
+
+-->1 RFN geni:6000000122550030069
+<--1|RFN|N|geni:6000000122550030069
+
+-->1 CHAN
+<--1|CHAN|N|
+
+-->2 DATE 11 FEB 2020
+<--2|DATE|Y|11FEB2020
+
+-->3 TIME 18:19:29
+<--3|TIME|N|18:19:29
+
+-->0 @I6000000122550214026@ INDI
+<--0|INDI|Y|@I6000000122550214026@
+
+-->1 NAME Nazeer /Begum/
+<--1|NAME|Y|Nazeer/Begum/
+
+-->2 GIVN Nazeer
+<--2|GIVN|N|Nazeer
+
+-->2 _MARNM Begum
+<--2|_MARNM|N|Begum
+
+-->1 SEX F
+<--1|SEX|Y|F
+
+-->1 BIRT
+<--1|BIRT|Y|
+
+-->2 DATE 1 FEB 1937
+<--2|DATE|Y|1FEB1937
+
+-->2 ADDR Islamabad
+<--2|ADDR|N|Islamabad
+
+-->3 CONT Islamabad Capital Territory Pakistan
+<--3|CONT|N|IslamabadCapitalTerritoryPakistan
+
+-->3 CITY Islamabad
+<--3|CITY|N|Islamabad
+
+-->3 STAE Islamabad Capital Territory
+<--3|STAE|N|IslamabadCapitalTerritory
+
+-->3 CTRY Pakistan
+<--3|CTRY|N|Pakistan
+
+-->1 DEAT
+<--1|DEAT|Y|
+
+-->2 DATE 12 SEP 1993
+<--2|DATE|Y|12SEP1993
+
+-->2 ADDR Islamabad
+<--2|ADDR|N|Islamabad
+
+-->3 CONT Terytorium Stołeczne Islamabadu Pakistan
+<--3|CONT|N|TerytoriumStołeczneIslamabaduPakistan
+
+-->3 CITY Islamabad
+<--3|CITY|N|Islamabad
+
+-->3 STAE Terytorium Stołeczne Islamabadu
+<--3|STAE|N|TerytoriumStołeczneIslamabadu
+
+-->3 CTRY Pakistan
+<--3|CTRY|N|Pakistan
+
+-->1 FAMS @F6000000122550214032@
+<--1|FAMS|Y|@F6000000122550214032@
+
+-->1 RFN geni:6000000122550214026
+<--1|RFN|N|geni:6000000122550214026
+
+-->1 CHAN
+<--1|CHAN|N|
+
+-->2 DATE 11 FEB 2020
+<--2|DATE|Y|11FEB2020
+
+-->3 TIME 18:17:47
+<--3|TIME|N|18:17:47
+
+-->0 @I6000000122551233856@ INDI
+<--0|INDI|Y|@I6000000122551233856@
+
+-->1 NAME Iftikhar /Ahmed/
+<--1|NAME|Y|Iftikhar/Ahmed/
+
+-->2 GIVN Iftikhar
+<--2|GIVN|N|Iftikhar
+
+-->2 SURN Gondal
+<--2|SURN|N|Gondal
+
+-->2 _MARNM Ahmed
+<--2|_MARNM|N|Ahmed
+
+-->1 SEX M
+<--1|SEX|Y|M
+
+-->1 BIRT
+<--1|BIRT|Y|
+
+-->2 DATE 16 OCT 1962
+<--2|DATE|Y|16OCT1962
+
+-->2 ADDR Islamabad
+<--2|ADDR|N|Islamabad
+
+-->3 CONT Islamabad Capital Territory Pakistan
+<--3|CONT|N|IslamabadCapitalTerritoryPakistan
+
+-->3 CITY Islamabad
+<--3|CITY|N|Islamabad
+
+-->3 STAE Islamabad Capital Territory
+<--3|STAE|N|IslamabadCapitalTerritory
+
+-->3 CTRY Pakistan
+<--3|CTRY|N|Pakistan
+
+-->1 RESI
+<--1|RESI|N|
+
+-->2 ADDR Islamabad
+<--2|ADDR|N|Islamabad
+
+-->3 CONT Islamabad Capital Territory Pakistan
+<--3|CONT|N|IslamabadCapitalTerritoryPakistan
+
+-->3 CITY Islamabad
+<--3|CITY|N|Islamabad
+
+-->3 STAE Islamabad Capital Territory
+<--3|STAE|N|IslamabadCapitalTerritory
+
+-->3 CTRY Pakistan
+<--3|CTRY|N|Pakistan
+
+-->1 FAMC @F6000000122550214032@
+<--1|FAMC|Y|@F6000000122550214032@
+
+-->1 FAMS @F6000000122549837283@
+<--1|FAMS|Y|@F6000000122549837283@
+
+-->1 RFN geni:6000000122551233856
+<--1|RFN|N|geni:6000000122551233856
+
+-->1 CHAN
+<--1|CHAN|N|
+
+-->2 DATE 11 FEB 2020
+<--2|DATE|Y|11FEB2020
+
+-->3 TIME 18:28:34
+<--3|TIME|N|18:28:34
+
+-->0 @I6000000122550124870@ INDI
+<--0|INDI|Y|@I6000000122550124870@
+
+-->1 NAME Qasim /jee/
+<--1|NAME|Y|Qasim/jee/
+
+-->2 GIVN Qasim
+<--2|GIVN|N|Qasim
+
+-->2 SURN Choudary
+<--2|SURN|N|Choudary
+
+-->2 _MARNM jee
+<--2|_MARNM|N|jee
+
+-->1 SEX M
+<--1|SEX|Y|M
+
+-->1 BIRT
+<--1|BIRT|Y|
+
+-->2 DATE 19 APR 1992
+<--2|DATE|Y|19APR1992
+
+-->2 ADDR New York
+<--2|ADDR|N|NewYork
+
+-->3 CONT NY United States
+<--3|CONT|N|NYUnitedStates
+
+-->3 CITY New York
+<--3|CITY|N|NewYork
+
+-->3 STAE NY
+<--3|STAE|N|NY
+
+-->3 CTRY United States
+<--3|CTRY|N|UnitedStates
+
+-->1 RESI
+<--1|RESI|N|
+
+-->2 ADDR New York
+<--2|ADDR|N|NewYork
+
+-->3 CONT NY United States
+<--3|CONT|N|NYUnitedStates
+
+-->3 CITY New York
+<--3|CITY|N|NewYork
+
+-->3 STAE NY
+<--3|STAE|N|NY
+
+-->3 CTRY United States
+<--3|CTRY|N|UnitedStates
+
+-->1 FAMS @F6000000122550124875@
+<--1|FAMS|Y|@F6000000122550124875@
+
+-->1 RFN geni:6000000122550124870
+<--1|RFN|N|geni:6000000122550124870
+
+-->1 CHAN
+<--1|CHAN|N|
+
+-->2 DATE 11 FEB 2020
+<--2|DATE|Y|11FEB2020
+
+-->3 TIME 17:57:22
+<--3|TIME|N|17:57:22
+
+-->0 @I6000000122549968947@ INDI
+<--0|INDI|Y|@I6000000122549968947@
+
+-->1 NAME Dua /Qasim/
+<--1|NAME|Y|Dua/Qasim/
+
+-->2 GIVN Dua
+<--2|GIVN|N|Dua
+
+-->2 SURN Choudary
+<--2|SURN|N|Choudary
+
+-->2 _MARNM Qasim
+<--2|_MARNM|N|Qasim
+
+-->1 SEX F
+<--1|SEX|Y|F
+
+-->1 BIRT
+<--1|BIRT|Y|
+
+-->2 DATE 9 MAY 2019
+<--2|DATE|Y|9MAY2019
+
+-->2 ADDR Islamabad
+<--2|ADDR|N|Islamabad
+
+-->3 CONT Islamabad Capital Territory Pakistan
+<--3|CONT|N|IslamabadCapitalTerritoryPakistan
+
+-->3 CITY Islamabad
+<--3|CITY|N|Islamabad
+
+-->3 STAE Islamabad Capital Territory
+<--3|STAE|N|IslamabadCapitalTerritory
+
+-->3 CTRY Pakistan
+<--3|CTRY|N|Pakistan
+
+-->1 RESI
+<--1|RESI|N|
+
+-->2 ADDR Islamabad
+<--2|ADDR|N|Islamabad
+
+-->3 CONT Islamabad Capital Territory Pakistan
+<--3|CONT|N|IslamabadCapitalTerritoryPakistan
+
+-->3 CITY Islamabad
+<--3|CITY|N|Islamabad
+
+-->3 STAE Islamabad Capital Territory
+<--3|STAE|N|IslamabadCapitalTerritory
+
+-->3 CTRY Pakistan
+<--3|CTRY|N|Pakistan
+
+-->1 FAMC @F6000000122550124875@
+<--1|FAMC|Y|@F6000000122550124875@
+
+-->1 RFN geni:6000000122549968947
+<--1|RFN|N|geni:6000000122549968947
+
+-->1 CHAN
+<--1|CHAN|N|
+
+-->2 DATE 11 FEB 2020
+<--2|DATE|Y|11FEB2020
+
+-->3 TIME 17:57:05
+<--3|TIME|N|17:57:05
+
+-->0 @I6000000122551160821@ INDI
+<--0|INDI|Y|@I6000000122551160821@
+
+-->1 NAME Rida /Jee/
+<--1|NAME|Y|Rida/Jee/
+
+-->2 GIVN Rida
+<--2|GIVN|N|Rida
+
+-->2 SURN Choudary
+<--2|SURN|N|Choudary
+
+-->2 _MARNM Jee
+<--2|_MARNM|N|Jee
+
+-->1 SEX F
+<--1|SEX|Y|F
+
+-->1 BIRT
+<--1|BIRT|Y|
+
+-->2 DATE 9 AUG 1950
+<--2|DATE|Y|9AUG1950
+
+-->2 ADDR Islamabad
+<--2|ADDR|N|Islamabad
+
+-->3 CONT Islamabad Capital Territory Pakistan
+<--3|CONT|N|IslamabadCapitalTerritoryPakistan
+
+-->3 CITY Islamabad
+<--3|CITY|N|Islamabad
+
+-->3 STAE Islamabad Capital Territory
+<--3|STAE|N|IslamabadCapitalTerritory
+
+-->3 CTRY Pakistan
+<--3|CTRY|N|Pakistan
+
+-->1 RESI
+<--1|RESI|N|
+
+-->2 ADDR Islamabad
+<--2|ADDR|N|Islamabad
+
+-->3 CONT Islamabad Capital Territory Pakistan
+<--3|CONT|N|IslamabadCapitalTerritoryPakistan
+
+-->3 CITY Islamabad
+<--3|CITY|N|Islamabad
+
+-->3 STAE Islamabad Capital Territory
+<--3|STAE|N|IslamabadCapitalTerritory
+
+-->3 CTRY Pakistan
+<--3|CTRY|N|Pakistan
+
+-->1 FAMS @F6000000122551160826@
+<--1|FAMS|Y|@F6000000122551160826@
+
+-->1 RFN geni:6000000122551160821
+<--1|RFN|N|geni:6000000122551160821
+
+-->1 CHAN
+<--1|CHAN|N|
+
+-->2 DATE 11 FEB 2020
+<--2|DATE|Y|11FEB2020
+
+-->3 TIME 18:23:03
+<--3|TIME|N|18:23:03
+
+-->0 @I6000000122549837278@ INDI
+<--0|INDI|Y|@I6000000122549837278@
+
+-->1 NAME Rifat /Gondal/
+<--1|NAME|Y|Rifat/Gondal/
+
+-->2 GIVN Rifat
+<--2|GIVN|N|Rifat
+
+-->2 SURN Hayat
+<--2|SURN|N|Hayat
+
+-->2 _MARNM Gondal
+<--2|_MARNM|N|Gondal
+
+-->1 SEX F
+<--1|SEX|Y|F
+
+-->1 BIRT
+<--1|BIRT|Y|
+
+-->2 DATE 25 JUN 1975
+<--2|DATE|Y|25JUN1975
+
+-->2 ADDR Islamabad
+<--2|ADDR|N|Islamabad
+
+-->3 CONT Islamabad Capital Territory Pakistan
+<--3|CONT|N|IslamabadCapitalTerritoryPakistan
+
+-->3 CITY Islamabad
+<--3|CITY|N|Islamabad
+
+-->3 STAE Islamabad Capital Territory
+<--3|STAE|N|IslamabadCapitalTerritory
+
+-->3 CTRY Pakistan
+<--3|CTRY|N|Pakistan
+
+-->1 RESI
+<--1|RESI|N|
+
+-->2 ADDR Islamabad
+<--2|ADDR|N|Islamabad
+
+-->3 CONT Islamabad Capital Territory Pakistan
+<--3|CONT|N|IslamabadCapitalTerritoryPakistan
+
+-->3 CITY Islamabad
+<--3|CITY|N|Islamabad
+
+-->3 STAE Islamabad Capital Territory
+<--3|STAE|N|IslamabadCapitalTerritory
+
+-->3 CTRY Pakistan
+<--3|CTRY|N|Pakistan
+
+-->1 FAMS @F6000000122549837283@
+<--1|FAMS|Y|@F6000000122549837283@
+
+-->1 RFN geni:6000000122549837278
+<--1|RFN|N|geni:6000000122549837278
+
+-->1 CHAN
+<--1|CHAN|N|
+
+-->2 DATE 11 FEB 2020
+<--2|DATE|Y|11FEB2020
+
+-->3 TIME 18:30:05
+<--3|TIME|N|18:30:05
+
+-->0 @I6000000122551057022@ INDI
+<--0|INDI|Y|@I6000000122551057022@
+
+-->1 NAME Zunera /Iftikhar/
+<--1|NAME|Y|Zunera/Iftikhar/
+
+-->2 GIVN Zunera
+<--2|GIVN|N|Zunera
+
+-->2 SURN Ahmed
+<--2|SURN|N|Ahmed
+
+-->2 _MARNM Iftikhar
+<--2|_MARNM|N|Iftikhar
+
+-->1 SEX F
+<--1|SEX|Y|F
+
+-->1 BIRT
+<--1|BIRT|Y|
+
+-->2 DATE 27 APR 1996
+<--2|DATE|Y|27APR1996
+
+-->2 ADDR Islamabad
+<--2|ADDR|N|Islamabad
+
+-->3 CONT Islamabad Capital Territory Pakistan
+<--3|CONT|N|IslamabadCapitalTerritoryPakistan
+
+-->3 CITY Islamabad
+<--3|CITY|N|Islamabad
+
+-->3 STAE Islamabad Capital Territory
+<--3|STAE|N|IslamabadCapitalTerritory
+
+-->3 CTRY Pakistan
+<--3|CTRY|N|Pakistan
+
+-->1 FAMC @F6000000122549837283@
+<--1|FAMC|Y|@F6000000122549837283@
+
+-->1 RFN geni:6000000122551057022
+<--1|RFN|N|geni:6000000122551057022
+
+-->1 CHAN
+<--1|CHAN|N|
+
+-->2 DATE 11 FEB 2020
+<--2|DATE|Y|11FEB2020
+
+-->3 TIME 18:31:23
+<--3|TIME|N|18:31:23
+
+-->0 @F6000000122550024922@ FAM
+<--0|FAM|Y|@F6000000122550024922@
+
+-->1 MARR
+<--1|MARR|Y|
+
+-->2 DATE 9 MAY 1990
+<--2|DATE|Y|9MAY1990
+
+-->2 ADDR Islamabad
+<--2|ADDR|N|Islamabad
+
+-->3 CONT Islamabad Capital Territory Pakistan
+<--3|CONT|N|IslamabadCapitalTerritoryPakistan
+
+-->3 CITY Islamabad
+<--3|CITY|N|Islamabad
+
+-->3 STAE Islamabad Capital Territory
+<--3|STAE|N|IslamabadCapitalTerritory
+
+-->3 CTRY Pakistan
+<--3|CTRY|N|Pakistan
+
+-->1 WIFE @I6000000122547944601@
+<--1|WIFE|Y|@I6000000122547944601@
+
+-->1 HUSB @I6000000122550024916@
+<--1|HUSB|Y|@I6000000122550024916@
+
+-->1 CHIL @I6000000122549280026@
+<--1|CHIL|N|@I6000000122549280026@
+
+-->1 CHIL @I6000000122549932921@
+<--1|CHIL|N|@I6000000122549932921@
+
+-->1 CHIL @I6000000122549418150@
+<--1|CHIL|N|@I6000000122549418150@
+
+-->0 @F6000000122550879882@ FAM
+<--0|FAM|Y|@F6000000122550879882@
+
+-->1 WIFE @I6000000122549837168@
+<--1|WIFE|Y|@I6000000122549837168@
+
+-->1 HUSB @I6000000122550879876@
+<--1|HUSB|Y|@I6000000122550879876@
+
+-->1 CHIL @I6000000122547944601@
+<--1|CHIL|N|@I6000000122547944601@
+
+-->0 @F6000000122550214032@ FAM
+<--0|FAM|Y|@F6000000122550214032@
+
+-->1 MARR
+<--1|MARR|Y|
+
+-->2 DATE 5 AUG 1954
+<--2|DATE|Y|5AUG1954
+
+-->2 ADDR Islamabad
+<--2|ADDR|N|Islamabad
+
+-->3 CONT Islamabad Capital Territory Pakistan
+<--3|CONT|N|IslamabadCapitalTerritoryPakistan
+
+-->3 CITY Islamabad
+<--3|CITY|N|Islamabad
+
+-->3 STAE Islamabad Capital Territory
+<--3|STAE|N|IslamabadCapitalTerritory
+
+-->3 CTRY Pakistan
+<--3|CTRY|N|Pakistan
+
+-->1 HUSB @I6000000122550030069@
+<--1|HUSB|Y|@I6000000122550030069@
+
+-->1 WIFE @I6000000122550214026@
+<--1|WIFE|Y|@I6000000122550214026@
+
+-->1 CHIL @I6000000122551233856@
+<--1|CHIL|N|@I6000000122551233856@
+
+-->1 CHIL @I6000000122550024916@
+<--1|CHIL|N|@I6000000122550024916@
+
+-->0 @F6000000122550124875@ FAM
+<--0|FAM|Y|@F6000000122550124875@
+
+-->1 MARR
+<--1|MARR|Y|
+
+-->2 DATE 7 MAY 2018
+<--2|DATE|Y|7MAY2018
+
+-->2 ADDR Islamabad
+<--2|ADDR|N|Islamabad
+
+-->3 CONT Islamabad Capital Territory Pakistan
+<--3|CONT|N|IslamabadCapitalTerritoryPakistan
+
+-->3 CITY Islamabad
+<--3|CITY|N|Islamabad
+
+-->3 STAE Islamabad Capital Territory
+<--3|STAE|N|IslamabadCapitalTerritory
+
+-->3 CTRY Pakistan
+<--3|CTRY|N|Pakistan
+
+-->1 WIFE @I6000000122549932921@
+<--1|WIFE|Y|@I6000000122549932921@
+
+-->1 HUSB @I6000000122550124870@
+<--1|HUSB|Y|@I6000000122550124870@
+
+-->1 CHIL @I6000000122549968947@
+<--1|CHIL|N|@I6000000122549968947@
+
+-->0 @F6000000122551160826@ FAM
+<--0|FAM|Y|@F6000000122551160826@
+
+-->1 MARR
+<--1|MARR|Y|
+
+-->2 DATE 9 APR 1970
+<--2|DATE|Y|9APR1970
+
+-->1 HUSB @I6000000122550879876@
+<--1|HUSB|Y|@I6000000122550879876@
+
+-->1 WIFE @I6000000122551160821@
+<--1|WIFE|Y|@I6000000122551160821@
+
+-->0 @F6000000122549837283@ FAM
+<--0|FAM|Y|@F6000000122549837283@
+
+-->1 MARR
+<--1|MARR|Y|
+
+-->2 DATE 26 MAY 1993
+<--2|DATE|Y|26MAY1993
+
+-->2 ADDR Islamabad
+<--2|ADDR|N|Islamabad
+
+-->3 CONT Islamabad Capital Territory Pakistan
+<--3|CONT|N|IslamabadCapitalTerritoryPakistan
+
+-->3 CITY Islamabad
+<--3|CITY|N|Islamabad
+
+-->3 STAE Islamabad Capital Territory
+<--3|STAE|N|IslamabadCapitalTerritory
+
+-->3 CTRY Pakistan
+<--3|CTRY|N|Pakistan
+
+-->1 WIFE @I6000000122549837278@
+<--1|WIFE|Y|@I6000000122549837278@
+
+-->1 HUSB @I6000000122551233856@
+<--1|HUSB|Y|@I6000000122551233856@
+
+-->1 CHIL @I6000000122551057022@
+<--1|CHIL|N|@I6000000122551057022@
+
+-->0 @S6000000122549280026@ SUBM
+<--0|@S6000000122549280026@|N|SUBM
+
+-->1 NAME Saba Khalid
+<--1|NAME|Y|SabaKhalid
+
+-->1 ADDR New York
+<--1|ADDR|N|NewYork
+
+-->2 CONT NY United States
+<--2|CONT|N|NYUnitedStates
+
+-->2 CITY New York
+<--2|CITY|N|NewYork
+
+-->2 STAE NY
+<--2|STAE|N|NY
+
+-->2 CTRY United States
+<--2|CTRY|N|UnitedStates
+
+-->0 TRLR
+<--0|TRLR|Y|
+
+
+Individaul
++------------------------+-------------------+----------+-------------+-------+---------+-------------+----------------------------+------------------------+
+| ID                     | NAME              | Gender   | Birthday    |   Age | Alive   | Death       | Child                      | Spouse                 |
++========================+===================+==========+=============+=======+=========+=============+============================+========================+
+| @I6000000122549280026@ | Saba /Khalid/     | F        | 9 FEB 1993  |    28 | False   | N/A         | ['@F6000000122550024922@'] | N/A                    |
++------------------------+-------------------+----------+-------------+-------+---------+-------------+----------------------------+------------------------+
+| @I6000000122547944601@ | Naheed /Gondal/   | F        | 22 JUN 1970 |    50 | False   | N/A         | ['@F6000000122550879882@'] | @F6000000122550024922@ |
++------------------------+-------------------+----------+-------------+-------+---------+-------------+----------------------------+------------------------+
+| @I6000000122550024916@ | Khalid /Gondal/   | M        | 13 SEP 1956 |    64 | False   | N/A         | ['@F6000000122550214032@'] | @F6000000122550024922@ |
++------------------------+-------------------+----------+-------------+-------+---------+-------------+----------------------------+------------------------+
+| @I6000000122549932921@ | Sumera /Khalid/   | F        | 28 FEB 1994 |    26 | False   | N/A         | ['@F6000000122550024922@'] | @F6000000122550124875@ |
++------------------------+-------------------+----------+-------------+-------+---------+-------------+----------------------------+------------------------+
+| @I6000000122549418150@ | Hamza /Khalid/    | M        | 19 DEC 1995 |    25 | False   | N/A         | ['@F6000000122550024922@'] | N/A                    |
++------------------------+-------------------+----------+-------------+-------+---------+-------------+----------------------------+------------------------+
+| @I6000000122549837168@ | Rasool /Bibi/     | F        | 8 MAR 1950  |    70 | False   | N/A         | N/A                        | @F6000000122550879882@ |
++------------------------+-------------------+----------+-------------+-------+---------+-------------+----------------------------+------------------------+
+| @I6000000122550879876@ | Hayat /Gondal/    | M        | 18 FEB 1930 |    90 | True    | 7 MAR 1979  | N/A                        | @F6000000122550879882@ |
++------------------------+-------------------+----------+-------------+-------+---------+-------------+----------------------------+------------------------+
+| @I6000000122550030069@ | Ahmed /Gondal/    | M        | 22 AUG 1932 |    88 | True    | 23 JAN 2009 | N/A                        | @F6000000122550214032@ |
++------------------------+-------------------+----------+-------------+-------+---------+-------------+----------------------------+------------------------+
+| @I6000000122550214026@ | Nazeer /Begum/    | F        | 1 FEB 1937  |    84 | True    | 12 SEP 1993 | N/A                        | @F6000000122550214032@ |
++------------------------+-------------------+----------+-------------+-------+---------+-------------+----------------------------+------------------------+
+| @I6000000122551233856@ | Iftikhar /Ahmed/  | M        | 16 OCT 1962 |    58 | False   | N/A         | ['@F6000000122550214032@'] | @F6000000122549837283@ |
++------------------------+-------------------+----------+-------------+-------+---------+-------------+----------------------------+------------------------+
+| @I6000000122550124870@ | Qasim /jee/       | M        | 19 APR 1992 |    28 | False   | N/A         | N/A                        | @F6000000122550124875@ |
++------------------------+-------------------+----------+-------------+-------+---------+-------------+----------------------------+------------------------+
+| @I6000000122549968947@ | Dua /Qasim/       | F        | 9 MAY 2019  |     1 | False   | N/A         | ['@F6000000122550124875@'] | N/A                    |
++------------------------+-------------------+----------+-------------+-------+---------+-------------+----------------------------+------------------------+
+| @I6000000122551160821@ | Rida /Jee/        | F        | 9 AUG 1950  |    70 | False   | N/A         | N/A                        | @F6000000122551160826@ |
++------------------------+-------------------+----------+-------------+-------+---------+-------------+----------------------------+------------------------+
+| @I6000000122549837278@ | Rifat /Gondal/    | F        | 25 JUN 1975 |    45 | False   | N/A         | N/A                        | @F6000000122549837283@ |
++------------------------+-------------------+----------+-------------+-------+---------+-------------+----------------------------+------------------------+
+| @I6000000122551057022@ | Zunera /Iftikhar/ | F        | 27 APR 1996 |    24 | False   | N/A         | ['@F6000000122549837283@'] | N/A                    |
++------------------------+-------------------+----------+-------------+-------+---------+-------------+----------------------------+------------------------+
+Families
++------------------------+-------------+------+------------------------+------------------+------------------------+-----------------+------------------------+------------------------+------------------------+
+|                        |             | ID   | Married                | Divorced         | Husband ID             | Husband Name    | Wife ID                | Wife Name              | Children               |
++========================+=============+======+========================+==================+========================+=================+========================+========================+========================+
+| @F6000000122550024922@ | 9 MAY 1990  | N/A  | @I6000000122550024916@ | Khalid /Gondal/  | @I6000000122547944601@ | Naheed /Gondal/ | @I6000000122549280026@ | @I6000000122549932921@ | @I6000000122549418150@ |
++------------------------+-------------+------+------------------------+------------------+------------------------+-----------------+------------------------+------------------------+------------------------+
+| @F6000000122550879882@ | N/A         | N/A  | @I6000000122550879876@ | Hayat /Gondal/   | @I6000000122549837168@ | Rasool /Bibi/   | @I6000000122547944601@ |                        |                        |
++------------------------+-------------+------+------------------------+------------------+------------------------+-----------------+------------------------+------------------------+------------------------+
+| @F6000000122550214032@ | 5 AUG 1954  | N/A  | @I6000000122550030069@ | Ahmed /Gondal/   | @I6000000122550214026@ | Nazeer /Begum/  | @I6000000122551233856@ | @I6000000122550024916@ |                        |
++------------------------+-------------+------+------------------------+------------------+------------------------+-----------------+------------------------+------------------------+------------------------+
+| @F6000000122550124875@ | 7 MAY 2018  | N/A  | @I6000000122550124870@ | Qasim /jee/      | @I6000000122549932921@ | Sumera /Khalid/ | @I6000000122549968947@ |                        |                        |
++------------------------+-------------+------+------------------------+------------------+------------------------+-----------------+------------------------+------------------------+------------------------+
+| @F6000000122551160826@ | 9 APR 1970  | N/A  | @I6000000122550879876@ | Hayat /Gondal/   | @I6000000122551160821@ | Rida /Jee/      | N/A                    |                        |                        |
++------------------------+-------------+------+------------------------+------------------+------------------------+-----------------+------------------------+------------------------+------------------------+
+| @F6000000122549837283@ | 26 MAY 1993 | N/A  | @I6000000122551233856@ | Iftikhar /Ahmed/ | @I6000000122549837278@ | Rifat /Gondal/  | @I6000000122551057022@ |                        |                        |
++------------------------+-------------+------+------------------------+------------------+------------------------+-----------------+------------------------+------------------------+------------------------+
