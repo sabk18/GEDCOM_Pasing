@@ -2,11 +2,11 @@
 # coding: utf-8
 
 # In[ ]:
-
 from tabulate import tabulate
 import datetime
 from datetime import date
 File = open('Khalid_GEDCOM.txt')
+
 
 # In[ ]:
 # Create a dict to store data
@@ -93,7 +93,7 @@ def createCollection(line,currenttracker):
 # In[2]:
 
 
-New_file = open("Gedcome_khalid_project02.txt","w")
+New_file = open("Gedcome_khalid_project03.txt","w")
 
 
 # In[3]:
@@ -226,7 +226,7 @@ for famId in info['FAM']:
             info['INDI'][info['FAM'][famId]['WIFE']]['NAME']
         ])
     if 'CHIL' in info['FAM'][famId]:
-        row.extend(info['FAM'][famId]['CHIL'])
+        row.append(info['FAM'][famId]['CHIL'])
     else:
         row.append('N/A')
     table.append(row)
