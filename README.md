@@ -16,4 +16,4 @@
 - modification 1: prvided by Trevor
 - modification 2: provided by Shivani
 
-- all successful modifications are added to the master branch
+- all successful modifications were added to the master branch by Saba after checking the code for errors
