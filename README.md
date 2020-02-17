@@ -10,8 +10,7 @@ Modification 2: prints the names of individuals and their unique identifier in o
 
 ## Sprint Documentation
 Initial Code : provided by Saba
-Modification 1: provided by Trevor
-Modification 2: provided by Shivani
+Modification 1 and 2: provided by Trevor
 
 All code for the project is getting approved by Saba before being added to the repository
 
