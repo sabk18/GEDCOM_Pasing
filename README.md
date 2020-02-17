@@ -1,6 +1,6 @@
 # CS_555_GEDCOM
 
-##Project Tasks
+## Project Tasks
 Initial code: reads a GEDCOM file line by line and checks if the level matches the tag, if so it prints Y, if not it prints N; the order
   in which the output is printed is as follows: level, tag, Y or N, arguments
 Modification 1: saves the information about the families and individuals in lists 
