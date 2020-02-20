@@ -93,7 +93,7 @@ def createCollection(line,currenttracker):
 # In[2]:
 
 
-New_file = open("Gedcome_khalid_project03.txt","w")
+New_file = open("./output.txt","w")
 
 
 # In[3]:
