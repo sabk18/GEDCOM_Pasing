@@ -23,3 +23,10 @@ pip install -r requirements.txt
 python run.py
 
 # How to test data
+
+create a new .py in sprint1 for your story
+import it into the main file and pass it the "info" dict and the new_file. 
+Test data and return the output
+It will return the New_file with any lines that you add.
+
+Look at story4 for a quick example
