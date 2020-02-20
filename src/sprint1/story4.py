@@ -31,8 +31,9 @@ def testDates(marr,div):
 def test(info,file):
     for fam in info['FAM']:
         if 'MARR' in info['FAM'][fam] and 'DIV' in info['FAM'][fam]:
-            testDates(info['FAM'][fam]['MARR'],   info['FAM'][fam]['DIV'])
-
+            if not testDates(info['FAM'][fam]['MARR'],   info['FAM'][fam]['DIV']):
+                write.file('Issue with {0} Family Marrige and Divorce Dates\n '.format(fam))
+    return file
 
 if __name__ == '__main__':
     unittest.main()
