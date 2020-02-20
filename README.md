@@ -15,3 +15,11 @@ Modification 1 and 2: provided by Trevor
 All code for the project is getting approved by Saba before being added to the repository
 
 
+## Start Up
+
+Enter the following commands
+
+pip install -r requirements.txt
+python run.py
+
+# How to test data
