@@ -4,8 +4,6 @@ from datetime import datetime, timedelta
 
 class marrDateValidator(unittest.TestCase):
 
-    marrDate = datetime.now()
-    divDate = datetime.now()
 
     def test_isdate(self):
         result = testDates('false', 'nope')
@@ -37,11 +35,11 @@ def testDates(marr, div):
         return False
 
 
-def test(info, file):
+def s4test(info, file):
     for fam in info['FAM']:
         if 'MARR' in info['FAM'][fam] and 'DIV' in info['FAM'][fam]:
             if not testDates(info['FAM'][fam]['MARR'],   info['FAM'][fam]['DIV']):
-                write.file(
+                file.write(
                     'Issue with {0} Family Marrige and Divorce Dates\n '.format(fam))
     return file
 
