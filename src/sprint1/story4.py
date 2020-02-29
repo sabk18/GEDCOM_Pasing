@@ -38,7 +38,7 @@ def testDates(marr, div):
 def s4test(info, file):
     for fam in info['FAM']:
         if 'MARR' in info['FAM'][fam] and 'DIV' in info['FAM'][fam]:
-            if not testDates(info['FAM'][fam]['MARR'],   info['FAM'][fam]['DIV']):
+            if not testDates(datetime.strptime(info['FAM'][fam]['MARR'], '%d %b %Y'),   datetime.strptime(info['FAM'][fam]['DIV'], '%d %b %Y')):
                 file.write(
                     'Issue with {0} Family Marrige and Divorce Dates\n '.format(fam))
     return file
