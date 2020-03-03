@@ -40,10 +40,11 @@ def testDates(birth, marriage):
 def s10test(info,file):
     for indiv in info['INDI']:
         birth_date= info['INDI'][indiv]['BIRT']
-        if 'MARR' in info['INDI']:
-            marriage_date= info['INDI'][indiv]['MARR']
-            if not testDates(marriage_date):
-                file.write("Error at MARR Date at INDI ID {0} ".format(indiv))
+        # bad smell 1 no marr date for any INDI id
+        #if 'MARR' in info['INDI']:
+        #    marriage_date= info['INDI'][indiv]['MARR']
+        #    if not testDates(marriage_date):
+        #        file.write("Error at MARR Date at INDI ID {0} ".format(indiv))
         if not testDates(birth_date):
             file.write("Error at Birth DATE at INDI ID{0}".format(indiv))
     for fam in info['FAM']:
@@ -52,8 +53,9 @@ def s10test(info,file):
                 marriage_date= info['FAM'][fam]['MARR']
                 if not testDates(marriage_date):
                     file.write("Error at MARR Date at FAM ID {0}".format(fam))
-                if not testDates(birth_date):
-                    file.write("Error at Birth DATE at FAM ID{0}".format(fam))
+                # bad smell 2 no info about birth date in FAM id
+                #if not testDates(birth_date):
+                #    file.write("Error at Birth Date at FAM ID{0}".format(fam))
     return file
 
 if __name__ == '__main__':
