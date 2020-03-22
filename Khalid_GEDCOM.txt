@@ -10,6 +10,28 @@
 2 FORM LINEAGE-LINKED
 1 CHAR UTF-8
 0 @I6000000122549280026@ INDI
+1 NAME Shivani /Taneja/
+2 GIVN Shivani
+2 SURN Dagar
+2 _MARNM Taneja
+1 SEX F
+1 BIRT
+2 DATE 14 AUG 1997
+2 ADDR Delhi
+3 CONT Delhi Capital Territory India
+3 CITY New Delhi
+3 STAE Delhi
+3 CTRY India
+1 RESI
+2 ADDR New York
+3 CONT NY United States
+3 CITY New York
+3 STAE NY
+3 CTRY United States
+1 ADDR shivani@stevens.edu
+2 EMAIL shivani@stevens.edu
+1 FAMC @F6000000122550024922@
+0 @I6000000122549280026@ INDI
 1 NAME Saba /Khalid/
 2 GIVN Saba
 2 SURN Gondal
@@ -36,6 +58,26 @@
 2 DATE 11 FEB 2020
 3 TIME 18:34:24
 0 @I6000000122547944601@ INDI
+1 NAME Saroj /Taneja/
+2 GIVN Saroj
+2 SURN Taneja
+2 _MARNM Taneja
+1 SEX F
+1 BIRT
+2 DATE 22 JUN 1970
+2 ADDR Delhi
+3 CONT Delhi Capital Territory India
+3 CITY Delhi
+3 STAE Delhi Capital Territory
+3 CTRY India
+1 RESI
+2 ADDR New York
+3 CONT NY United States
+3 CITY New York
+3 STAE NY
+3 CTRY United States
+1 FAMS @F6000000122550024922@
+0 @I6000000122547944601@ INDI
 1 NAME Naheed /Gondal/
 2 GIVN Naheed
 2 SURN Hayat
@@ -61,6 +103,25 @@
 2 DATE 11 FEB 2020
 3 TIME 17:52:03
 0 @I6000000122550024916@ INDI
+1 NAME Ravish /Taneja/
+2 GIVN Ravish
+2 _MARNM Taneja
+1 SEX M
+1 BIRT
+2 DATE 25 JAN 1972
+2 ADDR Delhi
+3 CONT Delhi Capital Territory India
+3 CITY Delhi
+3 STAE Delhi Capital Territory
+3 CTRY India
+1 RESI
+2 ADDR New York
+3 CONT NY United States
+3 CITY New York
+3 STAE NY
+3 CTRY United States
+1 FAMS @F6000000122550024922@
+0 @I6000000122550024916@ INDI
 1 NAME Khalid /Gondal/
 2 GIVN Khalid
 2 _MARNM Gondal
@@ -84,6 +145,28 @@
 1 CHAN
 2 DATE 11 FEB 2020
 3 TIME 17:50:15
+0 @I6000000122549932921@ INDI
+1 NAME Himanshu /Dagar/
+2 GIVN Himanshu
+2 SURN Taneja
+2 _MARNM Himanshu
+1 SEX M
+1 BIRT
+2 DATE 26 AUG 1992
+2 ADDR Delhi
+3 CONT Delhi Capital Territory India
+3 CITY New Delhi
+3 STAE Delhi
+3 CTRY India
+1 RESI
+2 ADDR New York
+3 CONT NY United States
+3 CITY New York
+3 STAE NY
+3 CTRY United States
+1 ADDR himanshu@stevens.edu
+2 EMAIL himanshu@stevens.edu
+1 FAMC @F6000000122550024922@
 0 @I6000000122549932921@ INDI
 1 NAME Sumera /Khalid/
 2 GIVN Sumera
@@ -363,6 +446,18 @@
 1 CHAN
 2 DATE 11 FEB 2020
 3 TIME 18:31:23
+0 @F6000000122550024922@ FAM
+1 MARR
+2 DATE 19 FEB 1991
+2 ADDR Delhi
+3 CONT Delhi Capital Territory India
+3 CITY New Delhi
+3 STAE Delhi Capital Territory
+3 CTRY India
+1 WIFE @I6000000122547944601@
+1 HUSB @I6000000122550024916@
+1 CHIL @I6000000122549280026@
+1 CHIL @I6000000122549932921@
 0 @F6000000122550024922@ FAM
 1 MARR
 2 DATE 9 MAY 1990
