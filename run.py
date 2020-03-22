@@ -2,6 +2,9 @@ from src.gedcom import *
 from src.sprint1.story4 import s4test
 from src.sprint1.story1_peer import s1test
 from src.sprint1.story3 import s3test
+from src.sprint2.story2 import s2test
+from src.sprint2.story5 import s5test
+
 
 def main():
     File = open('Khalid_GEDCOM.txt')
