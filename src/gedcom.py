@@ -13,6 +13,26 @@ info = {
     'INDI': {}
 }
 
+''' Updates the dict and adds the values, even if multiple INDI or FAM having same IDs. 
+    Structure is as follows:
+        duplicate_info = {
+            'FAM':{
+                $ID:[$HUSB_ID],
+            },
+            'INDI':{
+                $ID:[$NAME]
+            }
+        }'''
+# duplicate_info is for duplicate ID scenarios
+duplicate_info = {
+    'INDI': {},
+    'FAM': {}
+}
+
+# They might contain duplicates, depends on GEDCOM File
+all_individuals_ids = []
+all_families_ids = []
+
 # These are the fields that we need to track as per the first part of the assignment. Had to drop date to make
 # collection function work.
 typelist = [
@@ -33,7 +53,7 @@ typelist = [
     'TRLR',
     'NOTE']
 
-currenttracker = '';
+currenttracker = ''
 
 
 def create_collection(line, currenttracker):
@@ -59,23 +79,42 @@ def create_collection(line, currenttracker):
             }
         }
     }'''
+
+    ''' Updates the dict and adds the values, even if multiple INDI or FAM having same IDs. 
+        Structure is as follows:
+            duplicate_info = {
+                'FAM':{
+                    $ID:[$HUSB_ID],
+                },
+                'INDI':{
+                    $ID:[$NAME]
+                }
+            }'''
     global typelist
     global info
+    global duplicate_info, all_individuals_ids, all_families_ids
+
     if line[2] == 'FAM':
+        all_families_ids.append(line[1])
         info['FAM'][line[1]] = {}
+        duplicate_info['FAM'][line[1]] = duplicate_info['FAM'].get(line[1], [])
         currenttracker = line[1]
         return currenttracker
     elif line[1] == 'DIV' or line[1] == 'MARR':
         info['FAM'][currenttracker][line[1]] = " ".join(line[2:])
     elif line[1] == 'WIFE' or line[1] == 'HUSB':
         info['FAM'][currenttracker][line[1]] = line[2]
+        if line[1] == 'HUSB':
+            duplicate_info['FAM'][currenttracker].append(line[2])
     elif line[1] == 'CHIL':
         if 'CHIL' not in info['FAM'][currenttracker]:
             info['FAM'][currenttracker][line[1]] = []
         info['FAM'][currenttracker][line[1]].append(line[2])
 
     elif line[2] == 'INDI':
+        all_individuals_ids.append(line[1])
         info['INDI'][line[1]] = {}
+        duplicate_info['INDI'][line[1]] = duplicate_info['INDI'].get(line[1], [])
         currenttracker = line[1]
         return currenttracker
     elif line[1] in typelist and currenttracker in info['INDI']:
@@ -85,6 +124,8 @@ def create_collection(line, currenttracker):
             info['INDI'][currenttracker]['FAMC'].append(" ".join(line[2:]))
         else:
             info['INDI'][currenttracker][line[1]] = " ".join(line[2:])
+            if line[1] == 'NAME':
+                duplicate_info['INDI'][currenttracker].append(" ".join(line[2:]))
     return currenttracker
 
 
