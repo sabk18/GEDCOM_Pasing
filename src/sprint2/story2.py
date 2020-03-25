@@ -22,18 +22,16 @@ def s2test(info,file):
         birth_date= info['INDI'][indiv]['BIRT']
         if 'MARR' in info['INDI']:
             marriage_date= info['INDI'][indiv]['MARR']
-            if not testDates(marriage_date):
-                file.write("Error at MARR Date at INDI ID {0} ".format(indiv))
-        if not testDates(birth_date):
-            file.write("Error at Birth Date at INDI ID{0}".format(indiv))
+
+            if not testDates(birth_date,marriage_date):
+                file.write("Error at Birth Date at INDI ID{0}".format(indiv))
     for fam in info['FAM']:
         for fam in info['FAM']:
             if 'MARR' in info['FAM'][fam]:
                 marriage_date= info['FAM'][fam]['MARR']
-                if not testDates(marriage_date):
+                if not testDates(birth_date,marriage_date):
                     file.write("Error at MARR Date at FAM ID {0}".format(fam))
-                if not testDates(birth_date):
-                   file.write("Error at Birth Date at FAM ID{0}".format(fam))
+
     return file
 
 if __name__ == '__main__':

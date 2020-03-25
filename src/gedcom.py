@@ -80,12 +80,7 @@ def createCollection(line,currenttracker):
         currenttracker=line[1]
         return currenttracker
     elif line[1] in typelist and currenttracker in info['INDI']:
-        if line[1] == 'FAMC':
-            if 'FAMC' not in  info['INDI'][currenttracker]:
-                info['INDI'][currenttracker]['FAMC']=[]
-            info['INDI'][currenttracker]['FAMC'].append(" ".join(line[2:]))
-        else:
-            info['INDI'][currenttracker][line[1]] = " ".join(line[2:])
+        info['INDI'][currenttracker][line[1]] = " ".join(line[2:])
     return currenttracker
 
 

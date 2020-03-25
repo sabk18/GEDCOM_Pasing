@@ -17,14 +17,15 @@ def s8test(info, file):
         birthDate = datetime.strptime(info['INDI'][ind]['BIRT'] , '%d %b %Y')
 
         if 'FAMC' in info['INDI'][ind]:
-            marrDate= datetime.strptime(info['FAM'][info['INDI'][ind]['FAMC']]['MARR'] , '%d %b %Y')
-            if birthDate > marrDate:
-                if file=='TEST':
-                    return False
-                file.write(
-                    'Issue with {0} | Age is over 150\n '.format(fam))
-            if file=="TEST":
-                return True
+            if 'MARR' in info['FAM'][info['INDI'][ind]['FAMC']]:
+                marrDate= datetime.strptime(info['FAM'][info['INDI'][ind]['FAMC']]['MARR'] , '%d %b %Y')
+                if birthDate > marrDate:
+                    if file=='TEST':
+                        return False
+                    file.write(
+                    'Issue with {0} | Age is over 150\n '.format(ind))
+                if file=="TEST":
+                    return True
 
     return file
 
