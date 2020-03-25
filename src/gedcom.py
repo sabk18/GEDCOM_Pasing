@@ -37,6 +37,11 @@ typelist=[
 
 currenttracker='';
 
+
+# Story 22
+unquieId=[]
+
+
 def createCollection(line,currenttracker):
     ''' Updates the dict and adds the values in. Structure is as follows
     info = {
@@ -63,6 +68,13 @@ def createCollection(line,currenttracker):
     global typelist
     global info
     if line[2] == 'FAM':
+        # Story 22
+        if line[1] in unquieId:
+            raise Exception('BAD ID')
+        else:
+            unquieId.append(line[1])
+
+
         info['FAM'][line[1]] = {}
         currenttracker=line[1]
         return currenttracker
@@ -76,16 +88,18 @@ def createCollection(line,currenttracker):
         info['FAM'][currenttracker][line[1]].append(line[2])
 
     elif line[2] == 'INDI':
+        # Story 22
+        if line[1] in unquieId:
+            raise Exception('BAD ID')
+        else:
+            unquieId.append(line[1])
+
+
         info['INDI'][line[1]] = {}
         currenttracker=line[1]
         return currenttracker
     elif line[1] in typelist and currenttracker in info['INDI']:
-        if line[1] == 'FAMC':
-            if 'FAMC' not in  info['INDI'][currenttracker]:
-                info['INDI'][currenttracker]['FAMC']=[]
-            info['INDI'][currenttracker]['FAMC'].append(" ".join(line[2:]))
-        else:
-            info['INDI'][currenttracker][line[1]] = " ".join(line[2:])
+        info['INDI'][currenttracker][line[1]] = " ".join(line[2:])
     return currenttracker
 
 
