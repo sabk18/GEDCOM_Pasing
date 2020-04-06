@@ -9,6 +9,7 @@ from src.sprint2.story2 import s2test
 from src.sprint2.story09 import s09_test
 from src.sprint3.story30 import s30_test
 from src.sprint3.story31 import s31_test
+from src.sprint2.story21 import s21_test
 
 def main():
     File = open('Khalid_GEDCOM.txt')
@@ -23,6 +24,7 @@ def main():
     New_file = s09_test(data,New_file)
     New_file = s30_test(data,New_file)
     New_file = s31_test(data,New_file)
+    New_file = s21_test(data,New_file)
     New_file.close()
     File.close()
 
