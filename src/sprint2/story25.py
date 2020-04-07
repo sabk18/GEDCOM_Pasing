@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+pyder#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Tue Apr 2 14:00:42 2020
@@ -29,11 +29,6 @@ class Unique_birthDate_firstName(unittest.TestCase):
         result= name_birth(['Meredith - 9th Feb 1995', 'Alex - 30th Jan 1998', 'Meredith - 9th Feb 1995'])
         self.assertFalse(result, 'False')
     
-from src.gedcom import *
-
-File = open('Khalid_GEDCOM.txt')
-New_file = open("Gedcome-output.txt","w")
-data,New_file = createoutput(File,New_file)
 
 def unique_childID(children):
     if len(children) == len(set(children)):  #chk if unique 
@@ -66,7 +61,7 @@ def s25test(info, file):
                     file.write("\nError: For Family ID {}, there should be unique child first name and birth date".format(fam))
      
     return file
-child__= s25test(data, New_file)            
+          
     
 if __name__ == '__main__':
     unittest.main()    
