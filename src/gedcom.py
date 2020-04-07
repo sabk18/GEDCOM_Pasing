@@ -5,6 +5,7 @@
 from tabulate import tabulate
 import datetime
 from datetime import date
+from datetime import *
 
 
 
@@ -40,6 +41,14 @@ currenttracker='';
 
 # Story 22
 unquieId=[]
+
+#story27
+def age(birthdate):  
+    birthdate = datetime.strptime(birthdate, '%d %b %Y')           
+    today = date.today()
+    age = today.year - birthdate.year  - ((today.month, today.day) < (birthdate.month, birthdate.day))
+    return (age)
+
 
 
 def createCollection(line,currenttracker):
@@ -100,6 +109,9 @@ def createCollection(line,currenttracker):
         return currenttracker
     elif line[1] in typelist and currenttracker in info['INDI']:
         info['INDI'][currenttracker][line[1]] = " ".join(line[2:])
+        if line[1] == "BIRT":
+            info['INDI'][currenttracker]['AGE'] = age(" ".join(line[2:]))
+            
     return currenttracker
 
 
@@ -203,9 +215,7 @@ def createoutput(File,New_file):
     info['INDI'][person]['NAME'],
     info['INDI'][person]['SEX'],
     info['INDI'][person]['BIRT'],]
-        date_time_str = info['INDI'][person]['BIRT']
-        date_time_obj = datetime.datetime.strptime(date_time_str, '%d %b %Y')
-        row.append((date.today().year - date_time_obj.year - ((date.today().month, date.today().day) < (date_time_obj.month, date_time_obj.day)))+1)
+        row.append(info['INDI'][person]['AGE'])
         if 'DEAT' in info['INDI'][person]:
             row.extend(['True',info['INDI'][person]['DEAT']])
         else:
