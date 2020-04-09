@@ -15,6 +15,8 @@ from src.sprint3.story35 import s35_run
 from src.sprint3.story28 import s28_run
 from src.sprint3.story32 import s32_run
 from src.sprint3.story37 import s37_run
+from src.sprint3.story41 import s41test
+from src.sprint3.story42 import s42test
 def main():
     File = open('Khalid_GEDCOM.txt')
     New_file = open("Gedcome-output.txt","w")
@@ -34,6 +36,10 @@ def main():
     New_file = s28_run(data, New_file)
     New_file = s32_run(data, New_file)
     New_file = s37_run(data, New_file)
+
+    New_file = s41test(data, New_file)
+    New_file = s42test(data, New_file)
+
     New_file.close()
     File.close()
 
