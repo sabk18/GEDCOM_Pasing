@@ -13,6 +13,8 @@ from src.sprint2.story21 import s21_test
 from src.sprint2.story25 import s25test
 from src.sprint3.story35 import s35_run
 from src.sprint3.story28 import s28_run
+from src.sprint3.story32 import s32_run
+from src.sprint3.story37 import s37_run
 from src.sprint3.story41 import s41test
 from src.sprint3.story42 import s42test
 def main():
@@ -32,8 +34,12 @@ def main():
     New_file = s25test(data, New_file)
     New_file = s35_run(data,New_file)
     New_file = s28_run(data, New_file)
+    New_file = s32_run(data, New_file)
+    New_file = s37_run(data, New_file)
+
     New_file = s41test(data, New_file)
     New_file = s42test(data, New_file)
+
     New_file.close()
     File.close()
 
