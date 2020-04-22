@@ -23,7 +23,7 @@ class Valid_Date_Chk(unittest.TestCase):
 
 def valid_date(date):
     try:
-        date = datetime.strptime(date, '%d %b %Y').date() #change to datetime
+        date = datetime.strptime('date', '%d %b %Y').date() #change to datetime
     except ValueError:
         False
     return date
