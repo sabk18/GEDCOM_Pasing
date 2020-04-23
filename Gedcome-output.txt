@@ -1428,3 +1428,10 @@ Hayat /Gondal/ Died within 30 days and is related to the following
 +===============+============+
 | Rasool /Bibi/ | WIFE       |
 +---------------+------------+
+
+Info: INDI ID @I6000000122550879876@, named Hayat /Gondal/, died in the last 30 days
+
+Info: INDI ID @I6000000122549968947@, named Dua /Qasim/ and alive, has birthday in next 30 days
+Info: INDI ID @I6000000122551057022@, named Zunera /Iftikhar/ and alive, has birthday in next 30 days
+ Error. Last name of Male Child Hamza /Khalid/ of family @F6000000122550024922@ is not valid
+ Error. Last name of Male Child Iftikhar /Ahmed/ of family @F6000000122550214032@ is not valid
