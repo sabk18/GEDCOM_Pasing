@@ -9,7 +9,7 @@ class upcommingAnValidator(unittest.TestCase):
 
     def testfullinput(self):
         self.assertTrue(
-            s39_run({'FAM': {1: {'MAR': '17 OCT 2019', 'FAMC': 2}}}, 1, True))
+            s39_run({'FAM': {1: {'MARR': '17 OCT 2019', 'FAMC': 2}}}, 1, True))
 
     def testdate(self):
         self.assertFalse(lessThanDays('17 OCT 2019', 30))
@@ -37,10 +37,11 @@ def s39_run(info, file, test=False):
 
 
     for fam in info['FAM']:
-        if lessThanDays(info['FAM'][fam]['MAR'], 30):
-            if test:
-                return True
-            file.write('{} Has an upcomming Anniversary'.format(fam))
+        if 'MARR' in info['FAM'][fam]:
+            if lessThanDays(info['FAM'][fam]['MARR'], 30):
+                if test:
+                    return True
+                file.write('{} Has an upcomming Anniversary'.format(fam))
     if test:
         return True
 

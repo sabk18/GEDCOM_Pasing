@@ -43,12 +43,13 @@ def s34_run(info, file, test=False):
 
 
     for fam in info['FAM']:
-        wifeAge = ageAtMar(info['INDI'][info['FAM'][fam]['WIFE']]['BIRT'],info['FAM'][fam]['MAR'])
-        husAge = ageAtMar(info['INDI'][info['FAM'][fam]['HUSB']]['BIRT'],info['FAM'][fam]['MAR'])
-        if doubleAge(wifeAge,husAge):
-            if test:
-                return True
-            file.write('{} Married at double the partners age'.format(fam))
+        if 'MARR' in info['FAM'][fam]:
+            wifeAge = ageAtMar(info['INDI'][info['FAM'][fam]['WIFE']]['BIRT'],info['FAM'][fam]['MARR'])
+            husAge = ageAtMar(info['INDI'][info['FAM'][fam]['HUSB']]['BIRT'],info['FAM'][fam]['MARR'])
+            if doubleAge(wifeAge,husAge):
+                if test:
+                    return True
+                file.write('{} Married at double the partners age'.format(fam))
 
 
     return file

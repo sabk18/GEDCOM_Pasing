@@ -21,7 +21,8 @@ from src.sprint4.story36 import s36_test
 from src.sprint4.story38 import s38_test
 from src.sprint4.story33 import s33_test
 from src.sprint4.story16 import s16_test
-
+from src.sprint4.story39 import s39_run
+from src.sprint4.story34 import s34_run
 
 def main():
     File = open('Khalid_GEDCOM.txt')
@@ -50,7 +51,8 @@ def main():
     New_file = s38_test(data,New_file)
     New_file = s33_test(data,New_file)
     New_file = s16_test(data,New_file)
-    
+    New_file = s39_run(data,New_file)
+    New_file = s34_run(data,New_file)   
     
     
     New_file.close()
